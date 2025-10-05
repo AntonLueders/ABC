@@ -9,7 +9,7 @@ set(groot,'DefaultLegendInterpreter' ,'LaTeX');
 
 steps = 50000000;
 
-rng(10)
+rng(1399851)
 
 h = 0.0001;
 v = 3.03048349;
@@ -38,3 +38,4 @@ for run = 1:runs
     writematrix(num2str([t(1:10000:end)', vec(1,1:10000:end)', vec(2,1:10000:end)'],'%.6f '),'Data.dat',...
              'Delimiter', 'tab', 'WriteMode', 'append');
 end
+
