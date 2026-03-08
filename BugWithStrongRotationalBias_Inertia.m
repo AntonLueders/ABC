@@ -12,10 +12,10 @@ steps = 50000000;
 rng(654)
 
 h = 0.00005;
-v = 3.63440255;
-omega = 0.07097686;
-Dr = 0.00137033;
-D = 0.58265903;
+v = 3.63463309;
+omega = 0.07097372;
+Dr = 0.00136558;
+D = 0.57998460;
 runs = 50;
 
 tau = 1.4;
@@ -43,3 +43,4 @@ for run = 1:runs
     writematrix(num2str([t(1:10000:end)', vec(1,1:10000:end)', vec(2,1:10000:end)'],'%.6f '),'Data.dat',...
              'Delimiter', 'tab', 'WriteMode', 'append');
 end
+
