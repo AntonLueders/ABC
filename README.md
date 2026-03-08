@@ -5,4 +5,4 @@ Simple *MATLAB* scripts for the integration of the overdamped dynamics of a free
 
 If you use this simulation software or parts of it, please cite [1].
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18874072.svg)](https://doi.org/10.5281/zenodo.18874072)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18912953.svg)](https://doi.org/10.5281/zenodo.18912953)
